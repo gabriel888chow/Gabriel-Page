@@ -3,13 +3,6 @@ import './Project.css';
 import {useState} from 'react';
 
 export default function Project() {
-  const [click, setClick] = useState(false);
-  const card = document.querySelector('.card');
-
-  function clickRotate() {
-    card.classList.toggle('rotated');
-  }
-  card.addEventListener('click', clickRotate);
 
   return (
     <div>
