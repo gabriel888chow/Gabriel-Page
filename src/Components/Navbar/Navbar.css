@@ -1,7 +1,7 @@
 .navbar {
     background-color: #828282;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     font-family: 'Exo 2', sans-serif;
     font-size: 15px;
@@ -13,7 +13,7 @@
 
 .nav-container {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     /* width: 100%; navbar 的闊度 */
     width: 100%;
@@ -118,7 +118,7 @@
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
-        color: #4b6275;
+        color: #fff;
         margin: 0;
     }
 }

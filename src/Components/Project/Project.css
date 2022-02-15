@@ -1,0 +1,69 @@
+.cardList {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: lighter;
+}
+
+.card {
+    margin: 0 auto;
+    height: 400px;
+    width: 300px;
+    max-width: 80%;
+    position: relative;
+    border-radius: 25px;
+    transition: all 1s ease;
+    transform-style: preserve-3d;
+    box-shadow: 1px 3px 3px rgba(0,0,0,0.2)
+  }
+
+
+.card-contents {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+}
+
+h3 {
+  margin: 0 auto;
+  text-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+  color: #fff;
+}
+
+h2 {
+  margin: 0 auto;
+  text-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+  color: #fff;
+}
+
+hr {
+  width: 50%;
+  margin: 20px auto;
+}
+
+p {
+  margin: 0 auto;
+  text-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+}
+
+.card-front {
+    background: linear-gradient(to top left, #3a6186, #89253e);           
+    transform-style: preserve-3d;
+}
+
+/* 3D effect */
+/* .card-depth {
+    transform: translateZ(100px) scale(0.98);
+    perspective: inherit;
+} */
+
+/* .rotated {
+    transform: rotateY(-180deg);
+  } */
