@@ -8,13 +8,6 @@ div .col-4 {
     height: auto;
 }
 
-/* .mobilePage {
-    display: none;
-  } */
-
-/* @media only screen and (max-width: 1000px) {
-    .container {
-        m
-    }
-
-  } */
+p {
+    font-family: 'Open Sans', sans-serif;
+}

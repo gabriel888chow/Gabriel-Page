@@ -15,8 +15,8 @@ export default function Card({title, text, url1, url2}) {
               <hr/>
               <p>{text}</p>
             <div>
-              <a href={url1} className="btn btn-outline-secondary m-2"> Github </a>
-              <a href={url2} className="btn btn-outline-secondary m-2"> Link Page </a>
+              <a href={url1} className="btn btn-outline-light m-2"> Github </a>
+              <a href={url2} className="btn btn-outline-light m-2"> Link Page </a>
             </div>
           </div>
         </div>
