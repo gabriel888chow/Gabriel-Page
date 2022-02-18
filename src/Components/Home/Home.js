@@ -1,7 +1,13 @@
-import React from 'react'
+import React from 'react';
+import './Home.css';
 
 export default function Home() {
+ 
   return (
-    <div>Hi my name is Gabiel</div>
+    <div>
+      <div className='background'>
+          <div className='backgroundText'>Hi, this is <br/> Gabiel's webpage !!!</div>
+      </div>
+    </div>
   )
 }

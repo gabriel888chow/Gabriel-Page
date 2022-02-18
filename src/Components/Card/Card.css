@@ -2,8 +2,13 @@
     font-family: 'Exo 2', sans-serif;
     font-weight: lighter;
     margin: 50px 0;
-    padding: 0;
+    padding: 50px 0 0 0;
 }
+
+/* .card, .card-front, .card-back {
+  position: absolute;
+} */
+
 
 .card {
     margin: 0 auto;
@@ -11,10 +16,9 @@
     width: 400px;
     max-width: 80%;
     position: relative;
-    border-radius: 25px;
-    transition: all 1s ease;
     transform-style: preserve-3d;
-    box-shadow: 1px 3px 3px rgba(0,0,0,0.2);
+    background-color: rgba(44, 44, 44, 0);
+    border: none;
   }
 
 
@@ -30,8 +34,11 @@
     position: absolute;
     top: 0;
     left: 0;
-    backface-visibility: hidden;
     padding: 15px;
+    /* backface-visibility: hidden; */
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color: rgb(44, 44, 44, 0.5); */
+    background: linear-gradient(to top left, #014871, #d7ede2);
 }
 
 h3 {
@@ -57,19 +64,54 @@ p {
   color: #fff;
 }
 
-.card-front {
-    /* background-color: rgb(94, 94, 94); */
-    background: linear-gradient(to top left, #3a6186, #89253e);           
+/* .card-front {
+    background-color: rgb(94, 94, 94);
+    background-color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    transition: 0.75s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+} */
+
+.card .front-face,
+.card .back-face {
+    backface-visibility: hidden;
+    transition: transform 1.2s cubic-bezier(.4, .3, .5, 1);
     transform-style: preserve-3d;
 }
 
-/* .btn {
-  border-color: rgb(229, 255, 0) 0.5px;
-} */
+.card .back-face {
+  transform: rotateY(180deg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform-style: preserve-3d;
+  /* background: linear-gradient(to top left, #3a6186, #89253e); */
+}
 
-/* @media only screen and (max-width: 1000px) {
-    .card-contents {
-        margin: 0 50px;
-    }
+.card:hover {
+  transform: rotateY(0deg);
+  transform-style: preserve-3d;
+}
 
-  } */
+.card:hover > .back-face {
+  transform: rotateY(0deg);
+  transform-style: preserve-3d;
+}
+
+.card:hover > .front-face {
+  transform: rotateY(-180deg);
+  transform-style: preserve-3d;
+}
+
+.card-3d {
+  transform: translateZ(100px) scale(1);
+  transform-style: preserve-3d;
+  /* perspective: inherit; */
+}
+
+/* 三维元素比例 */
+.container {
+  perspective: 1500px;
+}
