@@ -1,35 +1,87 @@
-/* .aboutMe {
-    margin: 100px 0;
-} */
-
-.photoColor {
-    position: absolute;
-    right: 100px;
-    top: 250px;
-    width: 300px;
-    height: 300px;
-    /* border-radius: 10% 30% 50% 70%; */
-    border-radius: 70% 50% 30% 10%;
-    background-color: rgb(80, 80, 80);
+/* The first paragraph */
+.about {
+    margin-top: 200px ; 
+    /* border: 1px solid; */
 }
 
+/* The photo background color */
+.photoColor {
+    width: 300px;
+    height: 300px;
+    border-radius: 50% 90% 30% 50%;
+    background-color: rgb(80, 80, 80);
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* My photo */
 img {
-    position: absolute;
-    right: 20px;
-    bottom: 0px;
-    height: 400px;
+    height: 300px;
 }
 
 .title{
     font-family: 'Sedgwick Ave', cursive;
     font-size: 50px;
-    position: absolute;
-    top: 200px;
-    left: 100px;
+    margin: 0;
 }
 
 .title p {
     font-size: 20px;
     font-weight: bold;
     color: rgb(61, 61, 61);
+    padding-bottom: 90px;
 }
+
+.bar {
+    width: 100%;
+    margin: 50px 0;
+    /* height: 20%; */
+    background-color: rgb(97, 97, 97);
+}
+
+.slider {
+    /* border: 1px solid blue; */
+    padding: 10px;
+    margin: 50px 0;
+}
+
+
+.title .btn {
+    border: 2px solid;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.d-block {
+    width: auto;
+    height: 500px;
+}
+
+/* This third paragraph */
+.aboutMe {
+    margin-bottom: 150px;
+}
+
+.aboutColor {
+    /* width: 100px; */
+    height: 500px;
+    background-color: rgb(53, 53, 53);
+}
+
+.aboutText {
+    padding: 50px;
+    color: rgb(255, 255, 255);
+}
+
+
+.plan img {
+    padding: 5px;
+    /* width: px; */
+    height: 400px;
+}
+
+.plan{
+    position: absolute;
+    right: 10px;
+} 

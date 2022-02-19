@@ -1,5 +1,5 @@
 .navbarlist {
-    background-color: #8282824d;
+    background-color: #4646464d;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -41,7 +41,7 @@
 }
 
 .nav-links {
-    color: #fff;
+    color: rgb(197, 197, 197);
     /* text-decoration: none; 令到條link 底線冇左 */
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -97,7 +97,7 @@
     
     /* 手機板列表 */
     .nav-menu.active {
-        background: #80bef5;
+        background: #828282;
         left: 0px;
         opacity: 1;
         transition: all 0.5s ease;

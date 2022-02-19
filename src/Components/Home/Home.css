@@ -3,6 +3,7 @@
     height: 100vh;
     background:linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2)), url(backgroundImage.jpg);
     background-size: cover;
+    margin: 0;
 }
 
 .backgroundText {
@@ -17,9 +18,21 @@
     animation: float 1s infinite ease-in-out alternate;
 }
 
+.linkText {
+    text-decoration: none;
+}
+
 
 @keyframes float {
 	100% {
     transform: translateY(20px);
   }
 }
+
+@media screen and (max-width: 950px) {
+    .backgroundText {
+        font-size: 30px;
+    }
+}
+ 
+

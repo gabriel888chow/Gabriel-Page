@@ -38,29 +38,31 @@
     /* backface-visibility: hidden; */
     /* background-color: rgba(255, 255, 255, 0.1); */
     /* background-color: rgb(44, 44, 44, 0.5); */
-    background: linear-gradient(to top left, #014871, #d7ede2);
+    background: linear-gradient(to top left, #2F4F4F, #7DAFC2);
 }
 
-h3 {
+.card h6 {
   margin: 0 auto;
-  text-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+  /* text-shadow: 1px 2px 2px rgba(0,0,0,0.2); */
   color: #fff;
 }
 
-h2 {
+.card h2 {
   margin: 0 auto;
-  text-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+  /* text-shadow: 1px 2px 2px rgba(0,0,0,0.2); */
   color: #fff;
 }
 
-hr {
-  width: 50%;
+.card hr {
+  width: 70%;
+  height: 2%;
   margin: 20px auto;
+  color: #fff;
 }
 
-p {
+.card p {
   margin: 0 auto;
-  text-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+  /* text-shadow: 1px 2px 2px rgba(0,0,0,0.2); */
   color: #fff;
 }
 
@@ -90,10 +92,10 @@ p {
   /* background: linear-gradient(to top left, #3a6186, #89253e); */
 }
 
-.card:hover {
+/* .card:hover {
   transform: rotateY(0deg);
   transform-style: preserve-3d;
-}
+} */
 
 .card:hover > .back-face {
   transform: rotateY(0deg);

@@ -1,8 +1,8 @@
 import React from 'react';
 // import Link function
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
-import {useState} from 'react';
+import { useState } from 'react';
 
 export default function Navbar() {
     const [click, setClick] = useState(false);
@@ -13,7 +13,7 @@ export default function Navbar() {
         {/* logo */}
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-item'>
-            <Link to="/" activeclassname="active" className='nav-links'>
+            <Link to="/Gabriel-Page" activeclassname="active" className='nav-links'>
               Home Page
             </Link>
           </li>
