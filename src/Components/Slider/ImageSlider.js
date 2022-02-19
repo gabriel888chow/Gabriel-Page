@@ -24,11 +24,11 @@ const ImageSlider = ({ slides }) => {
   return (
       <Container>
         <Row>
-          <Col className='col-1  d-flex justify-content-center align-items-center'>
+          <Col className='col d-flex justify-content-center align-items-center'>
               <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
               {/* <Button className='left-arrow col-2' onClick={prevSlide} /> */}
           </Col>
-          <Col className='col-10 d-flex justify-content-center'>
+          <Col className='col d-flex justify-content-center'>
             {SliderData.map((slide, index) => {
               return (
                 <div
@@ -42,7 +42,7 @@ const ImageSlider = ({ slides }) => {
               );
             })}
           </Col>
-          <Col className='col-1 d-flex justify-content-center align-items-center'>
+          <Col className='col d-flex justify-content-center align-items-center'>
             <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
             {/* <Button className='right-arrow' onClick={nextSlide} /> */}
           </Col>
