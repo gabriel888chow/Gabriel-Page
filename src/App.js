@@ -17,8 +17,8 @@ function App() {
         {/* <Home /> */}
       <Routes>
         <Route path="/Gabriel-Page" element={<Home/>} />
-        <Route path="/aboutPage" element={<About/>} />
-        <Route path="/projectPage" element={<Project/>} />
+        <Route path="/Gabriel-Page/#/aboutPage" element={<About/>} />
+        <Route path="/Gabriel-Page/#/projectPage" element={<Project/>} />
       </Routes>
     </BrowserRouter>
   );
