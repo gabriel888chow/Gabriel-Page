@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Gabriel-Page/static/css/main.b7d55653.css",
-    "main.js": "/Gabriel-Page/static/js/main.65de37c5.js",
+    "main.css": "/Gabriel-Page/static/css/main.a714fc83.css",
+    "main.js": "/Gabriel-Page/static/js/main.616288f4.js",
     "static/js/787.69c1b68f.chunk.js": "/Gabriel-Page/static/js/787.69c1b68f.chunk.js",
     "static/media/myself.png": "/Gabriel-Page/static/media/myself.adf0289442a0e63b3500.png",
     "static/media/backgroundImage.jpg": "/Gabriel-Page/static/media/backgroundImage.4585753b2d51119f8d78.jpg",
@@ -12,12 +12,12 @@
     "static/media/floorPlan6.jpg": "/Gabriel-Page/static/media/floorPlan6.a634f8f2225f0e175819.jpg",
     "static/media/floorPlan5.jpg": "/Gabriel-Page/static/media/floorPlan5.eeb993d8a592562cdeb3.jpg",
     "index.html": "/Gabriel-Page/index.html",
-    "main.b7d55653.css.map": "/Gabriel-Page/static/css/main.b7d55653.css.map",
-    "main.65de37c5.js.map": "/Gabriel-Page/static/js/main.65de37c5.js.map",
+    "main.a714fc83.css.map": "/Gabriel-Page/static/css/main.a714fc83.css.map",
+    "main.616288f4.js.map": "/Gabriel-Page/static/js/main.616288f4.js.map",
     "787.69c1b68f.chunk.js.map": "/Gabriel-Page/static/js/787.69c1b68f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7d55653.css",
-    "static/js/main.65de37c5.js"
+    "static/css/main.a714fc83.css",
+    "static/js/main.616288f4.js"
   ]
 }
