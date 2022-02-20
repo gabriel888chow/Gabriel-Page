@@ -7,7 +7,8 @@ const list = [
   {
     id: 1,
     title: "To Do List",
-    text: "This is a codecademy project, also our final group project, mainly used React, HTML, CSS, JavaScript & Bootstrap",
+    text: "This is a codecademy project, also our final group project. This is a To Do List, you can use the webapp to notes what you will do later.",
+    skill: "React, HTML, CSS, JavaScript & Bootstrap",
     url1: "https://github.com/gabriel888chow/react-tasks-manager",
     url2: "https://gabriel888chow.github.io/react-tasks-manager/",
   },
@@ -53,9 +54,9 @@ export default function Project() {
     <div className='bady'>
       <div className='container'>
           <div className='row'>
-              {list.map(({title, text, url1, url2, id}) => (
+              {list.map(({title, text, skill, url1, url2, id}) => (
                   <div className='col mb-auto' key={id}>
-                    <Card title={title} text={text} url1={url1} url2={url2} />
+                    <Card title={title} text={text} skill={skill} url1={url1} url2={url2} />
                   </div>
               ))}
         </div>

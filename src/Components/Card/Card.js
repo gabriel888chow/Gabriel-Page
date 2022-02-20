@@ -3,7 +3,7 @@ import './Card.css';
 // import {Link} from 'react-router-dom';
 
 
-export default function Card({title, text, url1, url2}) {
+export default function Card({title, text, skill, url1, url2}) {
   return (
     <div>
       {/* <div>Project</div> */}
@@ -15,6 +15,8 @@ export default function Card({title, text, url1, url2}) {
                   <h2>{title}</h2>
                 <hr/>
                 <p>{text}</p>
+                <br/>
+                <p>{skill}</p>
             </div>
           </div>
           {/* card back  */}

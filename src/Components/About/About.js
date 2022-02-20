@@ -3,6 +3,9 @@ import img from './myself.png';
 import floorPlan1 from './floorPlan1.jpg';
 import floorPlan2 from './floorPlan2.jpg';
 import floorPlan3 from './floorPlan3.jpg';
+import floorPlan4 from './floorPlan4.jpg';
+import floorPlan5 from './floorPlan5.jpg';
+import floorPlan6 from './floorPlan6.jpg';
 import './About.css';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'react-bootstrap';
@@ -43,6 +46,19 @@ export default function About() {
             <img src={floorPlan3} />
           </Col>
         </Row> 
+        <Row className=' moblie'>
+        <Row className=' aboutColor moblie'>
+            <div className='aboutText'>
+              <h1>About Me</h1>
+              <p>Before I leaning "Front-End", I was working in inteior design, this is my drawing of my job.</p>
+            </div>
+          </Row>
+          <Row className='img'>
+            <img src={floorPlan4} />
+            <img src={floorPlan5} />
+            <img src={floorPlan6} />
+          </Row>
+        </Row>
     </Container>
   )
 }

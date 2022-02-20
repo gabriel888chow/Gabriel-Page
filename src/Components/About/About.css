@@ -84,10 +84,13 @@ img {
 }
 
 .aboutText {
-    padding: 50px;
+    padding: 190px 100px 190px 5px;
     color: rgb(255, 255, 255);
 }
 
+.aboutText h1{
+    font-family: 'Sonsie One', cursive;
+}
 
 .plan img {
     padding: 5px;
@@ -100,7 +103,60 @@ img {
     right: 10px;
 } 
 
-@media screen and (max-width: 500px) {
-    
-    
+.moblie {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .plan img {
+        width: 200px;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+/* The first paragraph */
+    .title .btn{
+        position: absolute;
+        top: 290px;
+        left: 120px;
+    }
+
+
+
+/* This third paragraph */
+    .aboutMe .aboutColor {
+        display: none;
+    }
+
+    .moblie {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    .moblie .aboutColor {
+        height: 300px;
+        /* padding: 0; */
+    }
+
+    .moblie .aboutText {
+        padding: 100px 10px 100px 10px;
+        margin: 0;
+    }
+
+    .plan img {
+        display: none;
+    }
+
+    .moblie .img {
+        margin: 0;
+        display: block;
+        height: 200px;
+        padding: 0 0 10px 0;
+    }
+
+    .moblie .aboutText h1{
+        font-family: 'Sonsie One', cursive;
+    }
 }
