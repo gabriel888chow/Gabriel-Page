@@ -175,6 +175,8 @@ img {
     }
 
     .moblie .aboutText h1{
-        font-family: 'Sonsie One', cursive;
+        font-family: 'Playfair Display', serif;
+        color: #F4A300;
+        font-weight: bold;
     }
 }
