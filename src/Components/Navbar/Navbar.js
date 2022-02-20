@@ -18,12 +18,12 @@ export default function Navbar() {
             </Link>
           </li>
           <li className='nav-item'>
-            <Link to="/Gabriel-Page/#/aboutPage" activeclassname="active" className='nav-links'>
+            <Link to="/aboutPage" activeclassname="active" className='nav-links'>
               About Page
             </Link>
           </li>
           <li className='nav-item'>
-            <Link to="/Gabriel-Page/#/projectPage" activeclassname="active" className='nav-links'>
+            <Link to="/projectPage" activeclassname="active" className='nav-links'>
               Project Page
             </Link>
           </li>

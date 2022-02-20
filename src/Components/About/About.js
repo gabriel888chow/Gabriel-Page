@@ -48,7 +48,7 @@ export default function About() {
             <div className='aboutText'>
               <Flip top>
                 <h1>About Me</h1>
-                <p>Before I leaning "Front-End", I was working in inteior design, this is my drawing of my job.</p>
+                <p>I was working in interior design, before I learning Front-end Web developer, this is my drawing of my job.</p>
               </Flip>
             </div>
           </Col>
@@ -66,7 +66,7 @@ export default function About() {
             <div className='aboutText'>
               <Slide left>
                 <h1>About Me</h1>
-                <p>Before I leaning "Front-End", I was working in inteior design, this is my drawing of my job.</p>
+                <p>I was working in interior design, before I learning Front-end Web developer, this is my drawing of my job.</p>
               </Slide>
             </div>
           </Row>

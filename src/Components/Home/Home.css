@@ -11,11 +11,11 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-family: 'Sedgwick Ave', cursive;
+    font-family: 'Playfair Display', serif;
     font-size: 100px;
     font-weight: bold;
     color: #fff;
-    animation: float 1s infinite ease-in-out alternate;
+    /* animation: float 1s infinite ease-in-out alternate; */
 }
 
 .linkText {
@@ -23,11 +23,11 @@
 }
 
 
-@keyframes float {
+/* @keyframes float {
 	100% {
     transform: translateY(20px);
   }
-}
+} */
 
 @media screen and (max-width: 950px) {
     .backgroundText {

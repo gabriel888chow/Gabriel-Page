@@ -68,12 +68,12 @@
 
 .nav-item:hover:after {
     width: 100%;
-    background: #383838;
+    background: #464646;
 }
 
 .nav-item .active {
-    color: #383838; 
-    border: 1px solid #383838;
+    color: #464646; 
+    border: 1px solid #464646;
 }
 
 .nav-icon {
@@ -97,7 +97,7 @@
     
     /* 手機板列表 */
     .nav-menu.active {
-        background: #828282;
+        background: #464646;
         left: 0px;
         opacity: 1;
         transition: all 0.5s ease;
