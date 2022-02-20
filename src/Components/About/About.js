@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'react-bootstrap';
 import ImageSlider from '../Slider/ImageSlider';
 import { SliderData } from '../Slider/SliderData';
-import { Fade, Reveal, Flip, Slide } from 'react-reveal';
+import { Fade, Flip, Slide } from 'react-reveal';
 
 export default function About() {
   return (

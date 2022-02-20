@@ -1,7 +1,7 @@
 import React from 'react'
 import './Card.css';
 // import {Link} from 'react-router-dom';
-import { Bounce, Fade, Flip } from 'react-reveal';
+import { Fade } from 'react-reveal';
 
 
 export default function Card({title, text, skill, url1, url2}) {
