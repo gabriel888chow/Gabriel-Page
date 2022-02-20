@@ -63,6 +63,7 @@ img {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: bold;
+    padding-bottom: 50px;
     /* padding: 10px 100px; */
 }
 
@@ -107,6 +108,11 @@ img {
     display: none;
 }
 
+@media screen and (max-width: 500px) {
+    .slider p {
+        padding-bottom: 0;
+    }
+}
 @media screen and (max-width: 1200px) {
     .plan img {
         width: 200px;
@@ -118,7 +124,7 @@ img {
 /* The first paragraph */
     .title .btn{
         position: absolute;
-        top: 290px;
+        bottom: 10px;
         left: 120px;
     }
 

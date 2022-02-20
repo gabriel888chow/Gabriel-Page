@@ -64,18 +64,25 @@
 
 @media screen and (max-width: 500px) {
   .image {
-    width: 200px;
+    /* width: 150px; */
+    height: 200px;
     border-radius: 10px;
+    margin: 15px 0;
   }
   
   .right-arrow {
     font-size: 2rem;
+    /* padding: 0; */
+    transform:rotate(90deg);
+    /* padding: 10px 0 ;  */
     /* cursor: pointer;
     user-select: none; */
   }
   
   .left-arrow {
-    font-size: 1.5rem;
+    transform:rotate(90deg);
+    font-size: 2rem;
+    /* padding: 0; */
 
   }
 }
