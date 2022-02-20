@@ -1,5 +1,5 @@
 .navbarlist {
-    background-color: #4646464d;
+    background-color: #464646;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -41,7 +41,7 @@
 }
 
 .nav-links {
-    color: rgb(26, 26, 26);
+    color: rgb(255, 255, 255);
     /* text-decoration: none; 令到條link 底線冇左 */
     text-decoration: none;
     padding: 0.5rem 1rem;

@@ -36,34 +36,38 @@
     left: 0;
     padding: 15px;
     /* backface-visibility: hidden; */
-    /* background-color: rgba(255, 255, 255, 0.1); */
-    /* background-color: rgb(44, 44, 44, 0.5); */
-    background: linear-gradient(to top left, #2F4F4F, #7DAFC2);
+    background: linear-gradient(to top left, #5F98A9, #273248);
+    /* background: #5F98A9; */
 }
 
 .card h6 {
   margin: 0 auto;
   /* text-shadow: 1px 2px 2px rgba(0,0,0,0.2); */
-  color: #fff;
+  color: #F4A300;
 }
 
 .card h2 {
   margin: 0 auto;
   /* text-shadow: 1px 2px 2px rgba(0,0,0,0.2); */
-  color: #fff;
+  color: #F4A300;
 }
 
 .card hr {
   width: 70%;
   height: 2%;
   margin: 20px auto;
-  color: #fff;
+  color: #F4A300;
 }
 
 .card p {
   margin: 0 auto;
   /* text-shadow: 1px 2px 2px rgba(0,0,0,0.2); */
-  color: #fff;
+  color: #F4A300;
+}
+
+.btn-outline {
+  color: #F4A300;
+  border: #F4A300 1px solid;
 }
 
 /* .card-front {

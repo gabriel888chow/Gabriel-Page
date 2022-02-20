@@ -26,7 +26,7 @@ export default function About() {
         </Col>
         <Col className='photo photoColor col-4 d-flex justify-content-center'>
           <Fade right>
-            <img src={img} />
+            <img src={img} alt="pic" />
           </Fade>
         </Col>
       </Row>
@@ -54,9 +54,9 @@ export default function About() {
           </Col>
           <Col className='plan col-9 d-flex justify-content-end'>
             <Slide right>
-              <img src={floorPlan1} />
-              <img src={floorPlan2} />
-              <img src={floorPlan3} />
+              <img src={floorPlan1} alt="pic"/>
+              <img src={floorPlan2} alt="pic"/>
+              <img src={floorPlan3} alt="pic"/>
             </Slide>
           </Col>
         </Row> 
@@ -72,9 +72,9 @@ export default function About() {
           </Row>
           <Row className='img'>
             <Slide bottom>
-              <img src={floorPlan4} />
-              <img src={floorPlan5} />
-              <img src={floorPlan6} />
+              <img src={floorPlan4} alt="pic"/>
+              <img src={floorPlan5} alt="pic"/>
+              <img src={floorPlan6} alt="pic"/>
             </Slide>
           </Row>
         </Row>

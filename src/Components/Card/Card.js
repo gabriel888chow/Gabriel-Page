@@ -23,10 +23,10 @@ export default function Card({title, text, skill, url1, url2}) {
             {/* card back  */}
             <div className='card-contents card-back back-face'>
               <div className='card-3d'>
-                <h2>Chack my link</h2>
+                <h2>Check my link</h2>
                 <div>
-                  <a href={url1} className="btn btn-outline-light m-2"> Github </a>
-                  <a href={url2} className="btn btn-outline-light m-2"> Link Page </a>
+                  <a href={url1} className="btn btn-outline m-2"> Github </a>
+                  <a href={url2} className="btn btn-outline m-2"> Link Page </a>
                 </div>
               </div>
             </div>
