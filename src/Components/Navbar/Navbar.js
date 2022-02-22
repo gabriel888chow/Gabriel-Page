@@ -13,7 +13,7 @@ export default function Navbar() {
         {/* logo */}
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-item'>
-            <Link to="/Gabriel-Page" activeclassname="active" className='nav-links'>
+            <Link to="/" activeclassname="active" className='nav-links'>
               Home Page
             </Link>
           </li>
