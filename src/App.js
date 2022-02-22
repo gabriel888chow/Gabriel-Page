@@ -12,7 +12,7 @@ import Navbar from './Components/Navbar/Navbar';
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename="/Gabriel-Page">
         <Navbar />
       <Routes>
         <Route path="/" element={<Home/>} />
