@@ -37,14 +37,14 @@ export default function About() {
           <p> I like to traval, when I saw the nice view, I will use mobile to take pictures. There are my pictures I was took. It is from Hong Kong, Japan and Taiwan.</p>
         </Flip>
         <Fade top>
-          <ImageSlider slides={SliderData}  />
+          <ImageSlider slides={SliderData} />
         </Fade>
       </Row> 
 
           <hr className='bar'></hr>
 
-        <Row className='aboutMe d-flex align-items-center' >
-          <Col className='col-5 aboutColor '>
+        <Row className='aboutMe d-flex align-items-center'>
+          <Col className='col-5 aboutColor'>
             <div className='aboutText'>
               <Flip top>
                 <h1>About Me</h1>
