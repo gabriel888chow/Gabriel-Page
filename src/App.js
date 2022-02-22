@@ -12,7 +12,7 @@ import Navbar from './Components/Navbar/Navbar';
 
 function App() {
   return (
-    <BrowserRouter basename="/tothepoint_login">
+    <BrowserRouter basename="/Gabriel-Page">
         <Navbar />
       <Routes>
         <Route path="/Gabriel-Page" element={<Home/>} />
