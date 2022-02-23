@@ -40,7 +40,7 @@ const list = [
     title: "Number Guesser",
     text: "This is a codecademy project, in this project, is write JavaScript functions to power a small guessing game.",
     skill: "JavaScript",
-    url1: "https://github.com/gabriel888chow/Number-Guesser/settings/pages",
+    url1: "https://github.com/gabriel888chow/Number-Guesser",
     url2: "https://gabriel888chow.github.io/Number-Guesser/",
   },
   {
