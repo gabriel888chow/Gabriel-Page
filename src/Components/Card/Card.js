@@ -17,7 +17,7 @@ export default function Card({title, text, skill, url1, url2}) {
                   <hr/>
                   <p>{text}</p>
                   <br/>
-                  <p>{skill}</p>
+                  <p>Skill: {skill}</p>
               </div>
             </div>
             {/* card back  */}

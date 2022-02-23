@@ -49,9 +49,10 @@ img {
 .title .btn {
     border: 2px solid #F4A300;
     color: #F4A300;
-    background:  #5F98A9;
+    /* background:  #ffffff; */
     font-weight: bold;
 }
+
 
 .d-block {
     width: auto;
