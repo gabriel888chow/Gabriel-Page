@@ -50,6 +50,14 @@ const list = [
     skill: "React, HTML, CSS, JavaScript & Bootstrap",
     url1: "https://github.com/gabriel888chow/Gabriel-Page",
     url2: "https://gabriel888chow.github.io/Gabriel-Page/",
+  },
+  {
+    id: 7,
+    title: "Furniture Store",
+    text: "This is my own project, I used php and mySQL to create a shopping website.",
+    skill: "PHP & mySQL",
+    url1: "https://github.com/gabriel888chow/php-mysql",
+    url2: "https://github.com/gabriel888chow/php-mysql#readme",
   }
 ];
 
