@@ -34,6 +34,7 @@ const list = [
     text: "This is a codecademy project, in this project, is building an interactive terminal game.",
     skill: "JavaScript",
     url1: "https://github.com/gabriel888chow/Find-Your-Hat/tree/master/starting",
+    url2: "https://github.com/gabriel888chow/Find-Your-Hat#readme",
   },
   {
     id: 5,
