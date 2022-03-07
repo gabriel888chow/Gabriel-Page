@@ -5,7 +5,7 @@ export const SliderData = [
     },
     {
       image:
-        'https://scontent.fhkg4-1.fna.fbcdn.net/v/t39.30808-6/274234146_10159731629162645_7230094967567178697_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_ohc=87LCUNNCcK0AX_5sTW3&_nc_ht=scontent.fhkg4-1.fna&oh=00_AT_cKTWC6G8qxh_y6wAhCIKmVog87c-A7f0LTe8X8ub1cA&oe=622AAFFB'
+        'https://scontent.fhkg4-2.fna.fbcdn.net/v/t39.30808-6/274173412_10159731629247645_8235643678915949140_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=730e14&_nc_ohc=eLviX5mHCZUAX_PUtL3&_nc_ht=scontent.fhkg4-2.fna&oh=00_AT8wfAT4gZPXdlM5k0eyaEdwJYZp0Lq2fFjQxuyzW8aZGQ&oe=622BBC0E'
     },
     {
       image:
@@ -13,7 +13,7 @@ export const SliderData = [
     },
     {
       image:
-        'https://scontent.fhkg4-2.fna.fbcdn.net/v/t39.30808-6/274173412_10159731629247645_8235643678915949140_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=730e14&_nc_ohc=eLviX5mHCZUAX_PUtL3&_nc_ht=scontent.fhkg4-2.fna&oh=00_AT8wfAT4gZPXdlM5k0eyaEdwJYZp0Lq2fFjQxuyzW8aZGQ&oe=622BBC0E'
+        'https://scontent.fhkg4-1.fna.fbcdn.net/v/t39.30808-6/274234146_10159731629162645_7230094967567178697_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_ohc=87LCUNNCcK0AX_5sTW3&_nc_ht=scontent.fhkg4-1.fna&oh=00_AT_cKTWC6G8qxh_y6wAhCIKmVog87c-A7f0LTe8X8ub1cA&oe=622AAFFB'
     },
     {
       image:
