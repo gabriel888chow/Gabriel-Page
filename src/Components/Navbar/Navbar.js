@@ -3,12 +3,27 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { useState } from 'react';
+import logo1 from './logo1.png';
+import logo2 from './logo2.png';
 
 export default function Navbar() {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
+    // const [navbar, setNavbar] = useState(false);
+
+    // const changeIogo = () => {
+    //   if (window.scrollY >= 80) {
+    //     setNavbar(true);
+    //   } else {
+    //     setNavbar(false);
+    //   }
+    // };
+    
+    // window.addEventListener('scroll', changeIogo);
+
   return (
     <nav className='navbarlist'>
+      {/* <div className={navbar ? 'logo1' : 'logo2'}></div> */}
       <div className='nav-container'>
         {/* logo */}
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>

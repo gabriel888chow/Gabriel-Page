@@ -14,6 +14,12 @@ import { SliderData } from '../Slider/SliderData';
 import { Fade, Flip, Slide } from 'react-reveal';
 
 export default function About() {
+  // const img = document.getElementById('plan');
+  // window.addEventListener('scroll', function() {
+  //   img.style.backgroundSize = 160 - +this.window.pageYOffset/12+'%';
+  //   img.style.opacity = 1 - +this.window.pageYOffset/700+'';
+  // })
+
   return (
     <Container>
       <Row className='about'>
@@ -52,7 +58,8 @@ export default function About() {
               </Flip>
             </div>
           </Col>
-          <Col className='plan col-9 d-flex justify-content-end'>
+          <Col className='plan col-9 d-flex justify-content-end' id="plan">
+          {/* <div className='plan col-9 d-flex justify-content-end' id="plan"></div> */}
             <Slide right>
               <img src={floorPlan1} alt="pic"/>
               <img src={floorPlan2} alt="pic"/>
