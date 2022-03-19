@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Gabriel-Page/static/css/main.03576ca2.css",
-    "main.js": "/Gabriel-Page/static/js/main.e53746d0.js",
+    "main.css": "/Gabriel-Page/static/css/main.37a0936f.css",
+    "main.js": "/Gabriel-Page/static/js/main.f5153407.js",
     "static/js/787.69c1b68f.chunk.js": "/Gabriel-Page/static/js/787.69c1b68f.chunk.js",
     "static/media/myself.png": "/Gabriel-Page/static/media/myself.e39a83a4f6ad96a99a85.png",
     "static/media/backgroundImage.jpg": "/Gabriel-Page/static/media/backgroundImage.4585753b2d51119f8d78.jpg",
@@ -13,12 +13,12 @@
     "static/media/floorPlan5.jpg": "/Gabriel-Page/static/media/floorPlan5.eeb993d8a592562cdeb3.jpg",
     "static/media/logo2.png": "/Gabriel-Page/static/media/logo2.59e4dbf8e21119e90838.png",
     "index.html": "/Gabriel-Page/index.html",
-    "main.03576ca2.css.map": "/Gabriel-Page/static/css/main.03576ca2.css.map",
-    "main.e53746d0.js.map": "/Gabriel-Page/static/js/main.e53746d0.js.map",
+    "main.37a0936f.css.map": "/Gabriel-Page/static/css/main.37a0936f.css.map",
+    "main.f5153407.js.map": "/Gabriel-Page/static/js/main.f5153407.js.map",
     "787.69c1b68f.chunk.js.map": "/Gabriel-Page/static/js/787.69c1b68f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.03576ca2.css",
-    "static/js/main.e53746d0.js"
+    "static/css/main.37a0936f.css",
+    "static/js/main.f5153407.js"
   ]
 }
