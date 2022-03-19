@@ -9,9 +9,12 @@ import floorPlan6 from './floorPlan6.jpg';
 import './About.css';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'react-bootstrap';
-import ImageSlider from '../Slider/ImageSlider';
-import { SliderData } from '../Slider/SliderData';
+// import ImageSlider from '../Slider/ImageSlider';
+// import { SliderData } from '../Slider/SliderData';
 import { Fade, Flip, Slide } from 'react-reveal';
+// import { width } from '@mui/system';
+// import { ScrollPage, Animator, StickyIn, FadeIn, ZoomIn, batch } from "react-scroll-motion";
+import IGapi from '../IGapi/IGapi';
 
 export default function About() {
   // const img = document.getElementById('plan');
@@ -19,6 +22,7 @@ export default function About() {
   //   img.style.backgroundSize = 160 - +this.window.pageYOffset/12+'%';
   //   img.style.opacity = 1 - +this.window.pageYOffset/700+'';
   // })
+  // const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
 
   return (
     <Container>
@@ -43,7 +47,9 @@ export default function About() {
           <p> I like to traval, when I saw the nice view, I will use mobile to take pictures. There are my pictures I was took. It is from Hong Kong, Japan and Taiwan.</p>
         </Flip>
         <Fade top>
-          <ImageSlider slides={SliderData} />
+          {/* <ImageSlider slides={SliderData} /> */}
+          {/* igapi npm */}
+          <IGapi />
         </Fade>
       </Row> 
 
@@ -60,6 +66,7 @@ export default function About() {
           </Col>
           <Col className='plan col-9 d-flex justify-content-end' id="plan">
           {/* <div className='plan col-9 d-flex justify-content-end' id="plan"></div> */}
+
             <Slide right>
               <img src={floorPlan1} alt="pic"/>
               <img src={floorPlan2} alt="pic"/>

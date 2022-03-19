@@ -3,8 +3,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { useState } from 'react';
-import logo1 from './logo1.png';
-import logo2 from './logo2.png';
+// import logo1 from './logo1.png';
+// import logo2 from './logo2.png';
 
 export default function Navbar() {
     const [click, setClick] = useState(false);

@@ -9,16 +9,44 @@ import About from './Components/About/About';
 import Project from './Components/Project/Project';
 // import Navbar
 import Navbar from './Components/Navbar/Navbar';
+import { css } from "@emotion/react";
+import React, { useState, useEffect } from 'react';
+import PulseLoader from "react-spinners/PulseLoader";
+
+const override = css`
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+`;
 
 function App() {
+  const [loading, setLoading] = useState(false);
+
+    useEffect(() => {
+        setLoading(true)
+        setTimeout(() => {
+            setLoading(false)
+        }, 2000)
+    }, [])
+
+   
+
   return (
     <BrowserRouter basename="/Gabriel-Page">
-        <Navbar />
-      <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/aboutPage" element={<About/>} />
-        <Route path="/projectPage" element={<Project/>} />
-      </Routes>
+      <Navbar />
+        { loading ? (
+          <PulseLoader color={"#36D7B7"} loading={loading} size={30} css={override}/>
+          ) : (
+            <Routes>
+              <Route path="/" element={<Home/>} />
+              <Route path="/aboutPage" element={<About/>} />
+              <Route path="/projectPage" element={<Project/>} />
+            </Routes>
+          )
+        }
     </BrowserRouter>
   );
 }
