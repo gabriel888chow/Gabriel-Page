@@ -9,7 +9,7 @@ export default function Card({title, text, skill, url1, url2}) {
     <div>
       <Fade bottom>
         <div className='cardList container'>
-          <div className='card '>
+          <div className='card'>
             <div className='card-contents card-front front-face'>
               <div className='card-3d'>
                   <h6>Project Name:</h6>

@@ -2,6 +2,7 @@ import React from 'react';
 import Card from '../Card/Card';
 import './Project.css';
 // import {useState} from 'react';
+import { connect } from 'react-redux';
 
 const list = [
   {
@@ -62,7 +63,7 @@ const list = [
   }
 ];
 
-export default function Project() {
+function Project() {
 
   return (
     <div className='bady'>
@@ -78,3 +79,5 @@ export default function Project() {
     </div>
   );
 }
+
+export default connect ()(Project)

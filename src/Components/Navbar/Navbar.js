@@ -5,8 +5,9 @@ import './Navbar.css';
 import { useState } from 'react';
 // import logo1 from './logo1.png';
 // import logo2 from './logo2.png';
+import { connect } from 'react-redux';
 
-export default function Navbar() {
+function Navbar() {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
     // const [navbar, setNavbar] = useState(false);
@@ -50,3 +51,5 @@ export default function Navbar() {
     </nav>
   )
 }
+
+export default connect ()(Navbar)

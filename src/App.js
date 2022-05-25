@@ -12,6 +12,20 @@ import Navbar from './Components/Navbar/Navbar';
 import { css } from "@emotion/react";
 import React, { useState, useEffect } from 'react';
 import PulseLoader from "react-spinners/PulseLoader";
+import { Provider } from "react-redux";
+import { createStore } from 'redux';
+
+function todos(state = [], action) {
+  switch (action.type) {
+    case 'ADD_TODO':
+      return state.concat([action.text])
+    default:
+      return state
+  }
+}
+
+
+const store = createStore(()=>{}, ['Use Redux'])
 
 const override = css`
     text-align: center;
@@ -35,20 +49,23 @@ function App() {
    
 
   return (
-    <BrowserRouter basename="/Gabriel-Page">
-      <Navbar />
-        { loading ? (
-          <PulseLoader color={"#36D7B7"} loading={loading} size={30} css={override}/>
-          ) : (
-            <Routes>
-              <Route path="/" element={<Home/>} />
-              <Route path="/aboutPage" element={<About/>} />
-              <Route path="/projectPage" element={<Project/>} />
-            </Routes>
-          )
-        }
-    </BrowserRouter>
+    <Provider store={store}>
+      <BrowserRouter basename="/Gabriel-Page">
+        <Navbar />
+          { loading ? (
+            <PulseLoader color={"#36D7B7"} loading={loading} size={30} css={override}/>
+            ) : (
+              <Routes>
+                <Route path="/" element={<Home/>} />
+                <Route path="/aboutPage" element={<About/>} />
+                <Route path="/projectPage" element={<Project/>} />
+              </Routes>
+            )
+          }
+      </BrowserRouter>
+    </Provider>
   );
+  // ReactDOM.render(<App />, document.getElementById('root'));
 }
 
 export default App;

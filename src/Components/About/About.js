@@ -15,8 +15,9 @@ import { Fade, Flip, Slide } from 'react-reveal';
 // import { width } from '@mui/system';
 // import { ScrollPage, Animator, StickyIn, FadeIn, ZoomIn, batch } from "react-scroll-motion";
 import IGapi from '../IGapi/IGapi';
+import { connect } from 'react-redux';
 
-export default function About() {
+function About() {
   // const img = document.getElementById('plan');
   // window.addEventListener('scroll', function() {
   //   img.style.backgroundSize = 160 - +this.window.pageYOffset/12+'%';
@@ -96,4 +97,4 @@ export default function About() {
   )
 }
 
-
+export default connect ()(About)
