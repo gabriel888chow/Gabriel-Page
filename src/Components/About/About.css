@@ -1,6 +1,6 @@
 /* The first paragraph */
 .about {
-    margin-top: 200px ; 
+    margin: 100px 100px; 
     /* border: 1px solid; */
 }
 
@@ -37,12 +37,12 @@ img {
     /* font-family: 'Open Sans', sans-serif; */
 }
 
-.bar {
+/* .bar {
     width: 100%;
     margin: 50px 0;
-    /* height: 20%; */
+    height: 20%;
     background-color: rgb(97, 97, 97);
-}
+} */
 
 
 
@@ -82,9 +82,9 @@ img {
 
 
 /* This third paragraph */
-.aboutMe {
+/* .aboutMe {
     margin-bottom: 150px;
-}
+} */
 
 .aboutColor {
     /* width: 100px; */
@@ -108,12 +108,11 @@ img {
 
 .plan img {
     padding: 5px;
-    /* width: px; */
     height: 400px;
 }
 
 .plan{
-    position: absolute;
+    /* position: absolute; */
     right: 10px;
 } 
 

@@ -14,16 +14,17 @@ import React, { useState, useEffect } from 'react';
 import PulseLoader from "react-spinners/PulseLoader";
 import { Provider } from "react-redux";
 import { createStore } from 'redux';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import blueGrey from '@material-ui/core/colors/blueGrey';
 
-function todos(state = [], action) {
-  switch (action.type) {
-    case 'ADD_TODO':
-      return state.concat([action.text])
-    default:
-      return state
-  }
-}
-
+// function todos(state = [], action) {
+//   switch (action.type) {
+//     case 'ADD_TODO':
+//       return state.concat([action.text])
+//     default:
+//       return state
+//   }
+// }
 
 const store = createStore(()=>{}, ['Use Redux'])
 
@@ -35,6 +36,12 @@ const override = css`
     width: 100%;
     height: 100vh;
 `;
+
+const theme = createTheme({
+  palette: {
+    "background-color": blueGrey,
+    },
+});
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -50,19 +57,21 @@ function App() {
 
   return (
     <Provider store={store}>
-      <BrowserRouter basename="/Gabriel-Page">
-        <Navbar />
-          { loading ? (
-            <PulseLoader color={"#36D7B7"} loading={loading} size={30} css={override}/>
-            ) : (
-              <Routes>
-                <Route path="/" element={<Home/>} />
-                <Route path="/aboutPage" element={<About/>} />
-                <Route path="/projectPage" element={<Project/>} />
-              </Routes>
-            )
-          }
-      </BrowserRouter>
+      <ThemeProvider theme={theme}>
+        <BrowserRouter basename="/Gabriel-Page">
+          <Navbar />
+            { loading ? (
+              <PulseLoader color={"#36D7B7"} loading={loading} size={30} css={override}/>
+              ) : (
+                <Routes>
+                  <Route path="/" element={<Home/>} />
+                  <Route path="/aboutPage" element={<About/>} />
+                  <Route path="/projectPage" element={<Project/>} />
+                </Routes>
+              )
+            }
+        </BrowserRouter>
+      </ThemeProvider>
     </Provider>
   );
   // ReactDOM.render(<App />, document.getElementById('root'));
