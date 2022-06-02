@@ -3,6 +3,8 @@ import Card from '../Card/Card';
 import './Project.css';
 // import {useState} from 'react';
 import { connect } from 'react-redux';
+import { Grid } from '@mui/material';
+import Container from '@mui/material/Container';
 
 const list = [
   {
@@ -66,17 +68,29 @@ const list = [
 function Project() {
 
   return (
-    <div className='bady'>
-      <div className='container'>
-          <div className='row'>
-              {list.map(({title, text, skill, url1, url2, id}) => (
-                  <div className='col mb-auto' key={id}>
-                    <Card title={title} text={text} skill={skill} url1={url1} url2={url2} />
-                  </div>
-              ))}
-        </div>
-      </div>
-    </div>
+    <Container maxWidth="xl">
+      <Grid container >
+          {list.map(({title, text, skill, url1, url2, id}) => (
+            <Grid item xs={6} lg={6} md={6} sm={4} key={id}>
+              <Card title={title} text={text} skill={skill} url1={url1} url2={url2} />
+            </Grid>
+          ))}
+        </Grid>
+    </Container>
+    
+    
+    
+    // <div className='bady'>
+    //   <div className='container'>
+    //       <div className='row'>
+    //           {list.map(({title, text, skill, url1, url2, id}) => (
+    //               <div className='col mb-auto' key={id}>
+    //                 <Card title={title} text={text} skill={skill} url1={url1} url2={url2} />
+    //               </div>
+    //           ))}
+    //     </div>
+    //   </div>
+    // </div>
   );
 }
 

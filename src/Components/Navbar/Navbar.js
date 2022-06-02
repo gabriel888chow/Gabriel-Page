@@ -7,7 +7,6 @@ import './Navbar.css';
 // import logo2 from './logo2.png';
 import { connect } from 'react-redux';
 import { styled, useTheme } from '@mui/material/styles';
-import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import MuiAppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
@@ -19,8 +18,9 @@ import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
-import { ImageOutlined } from '@mui/icons-material';
-import { ThemeProvider } from '@material-ui/core';
+// import { ImageOutlined } from '@mui/icons-material';
+// import { ThemeProvider } from '@material-ui/core';
+// import Box from '@mui/material/Box';
 // import ListItem from '@mui/material/ListItem';
 // import ListItemButton from '@mui/material/ListItemButton';
 // import ListItemIcon from '@mui/material/ListItemIcon';
@@ -115,13 +115,15 @@ function Navbar() {
       // <Box sx={{ display: 'flex' }}>
       <>
           <CssBaseline />
-          <AppBar position="fixed" open={open} >
+          <AppBar 
+            position="fixed" open={open}
+            color="primary"
+          >
             <Toolbar>
               <Typography variant="h6" noWrap sx={{ flexGrow: 1 }} component="div">
                 GABRIEL
               </Typography>
               <IconButton
-                color="inherit"
                 aria-label="open drawer"
                 edge="end"
                 onClick={handleDrawerOpen}

@@ -39,7 +39,9 @@ const override = css`
 
 const theme = createTheme({
   palette: {
-    "background-color": blueGrey,
+      primary: {
+        main: "#455a64",
+      }
     },
 });
 

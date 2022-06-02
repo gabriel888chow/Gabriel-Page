@@ -32,21 +32,21 @@ function About() {
     <>
     <Container maxWidth="xl">
       <Grid container direction="column" justifyContent="center" alignItems="center" marginTop="100px">
-
+        
         <Grid container justifyContent="center">
-            <Grid item xl={10} md={6} className='title'>
-          <Fade left>
+          <Grid item xl={10} md={6} className='title'>
+            <Fade left>
               <h1>GABRIEL CHOW</h1>
               <p> I joined an intensive Front-end Web developer course at Generation Hong Kong and it equipped me with the skills of HTML, CSS, JavaScript, React.</p>
               <Link className="btn" to="/projectPage"> Click my project </Link>
-          </Fade>
-            </Grid>
+            </Fade>
+          </Grid>
 
-            <Grid item xl={2} md={6} className='photoColor'>
-          <Fade right>
+          <Grid item xl={2} md={6} className='photoColor'>
+            <Fade right>
               <img src={img} alt="pic"/>
-          </Fade>
-            </Grid>
+            </Fade>
+          </Grid>
         </Grid>
         
         {/* <Grid >
@@ -76,6 +76,7 @@ function About() {
               </Flip>
             </div>
           </Grid>
+
           <Grid item xs={8} className="plan" id="plan">
             <Slide right>
               <img src={floorPlan1} alt="pic"/>
@@ -106,8 +107,6 @@ function About() {
             </Slide>
           </Grid>
         </div>
-
-      
     </>
   )
 }
