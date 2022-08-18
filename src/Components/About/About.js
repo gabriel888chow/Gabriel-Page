@@ -41,19 +41,19 @@ export default function About() {
         </Col>
       </Row>
           <hr className='bar'></hr>
-      <Row className='slider'>
+      {/* <Row className='slider'>
         <Flip top>
           <h1 className='d-flex justify-content-center' >Travel Photos</h1>
           <p> I like to traval, when I saw the nice view, I will use mobile to take pictures. There are my pictures I was took. It is from Hong Kong, Japan and Taiwan.</p>
         </Flip>
         <Fade top>
-          {/* <ImageSlider slides={SliderData} /> */}
-          {/* igapi npm */}
+          <ImageSlider slides={SliderData} />
+          igapi npm
           <IGapi />
         </Fade>
-      </Row> 
+      </Row>  */}
 
-          <hr className='bar'></hr>
+          {/* <hr className='bar'></hr> */}
 
         <Row className='aboutMe d-flex align-items-center'>
           <Col className='col-5 aboutColor'>
