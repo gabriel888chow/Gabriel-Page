@@ -7,9 +7,9 @@
     font-size: 15px;
     position: sticky;
     top: 0;
-    z-index: 20;
     width: 100%;
-    position: fixed;
+    z-index: 20;
+    /* position: fixed; */
     
 }
 
@@ -55,7 +55,7 @@ div .logo2 {
 }
 
 .nav-links {
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
     /* text-decoration: none; 令到條link 底線冇左 */
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -93,6 +93,7 @@ div .logo2 {
 .nav-icon {
     display: none;
 }
+
 
 @media screen and (max-width: 950px) {
     .navbar{
@@ -134,7 +135,7 @@ div .logo2 {
     .nav-links {
         padding: 1.5rem;
         width: 100%;
-        display: table;
+        /* display: table; */
     }
 
     .nav-icon {
