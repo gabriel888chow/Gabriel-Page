@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/Gabriel-Page/static/css/main.37a0936f.css",
-    "main.js": "/Gabriel-Page/static/js/main.f5153407.js",
+    "main.css": "/Gabriel-Page/static/css/main.7e9e2c9e.css",
+    "main.js": "/Gabriel-Page/static/js/main.07701d86.js",
     "static/js/787.69c1b68f.chunk.js": "/Gabriel-Page/static/js/787.69c1b68f.chunk.js",
-    "static/media/myself.png": "/Gabriel-Page/static/media/myself.e39a83a4f6ad96a99a85.png",
     "static/media/backgroundImage.jpg": "/Gabriel-Page/static/media/backgroundImage.4585753b2d51119f8d78.jpg",
     "static/media/floorPlan1.jpg": "/Gabriel-Page/static/media/floorPlan1.480f1595a407efbf6f89.jpg",
     "static/media/floorPlan4.jpg": "/Gabriel-Page/static/media/floorPlan4.4f7d45543df30d70d4e0.jpg",
@@ -13,12 +12,12 @@
     "static/media/floorPlan5.jpg": "/Gabriel-Page/static/media/floorPlan5.eeb993d8a592562cdeb3.jpg",
     "static/media/logo2.png": "/Gabriel-Page/static/media/logo2.59e4dbf8e21119e90838.png",
     "index.html": "/Gabriel-Page/index.html",
-    "main.37a0936f.css.map": "/Gabriel-Page/static/css/main.37a0936f.css.map",
-    "main.f5153407.js.map": "/Gabriel-Page/static/js/main.f5153407.js.map",
+    "main.7e9e2c9e.css.map": "/Gabriel-Page/static/css/main.7e9e2c9e.css.map",
+    "main.07701d86.js.map": "/Gabriel-Page/static/js/main.07701d86.js.map",
     "787.69c1b68f.chunk.js.map": "/Gabriel-Page/static/js/787.69c1b68f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37a0936f.css",
-    "static/js/main.f5153407.js"
+    "static/css/main.7e9e2c9e.css",
+    "static/js/main.07701d86.js"
   ]
 }
