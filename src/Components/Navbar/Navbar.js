@@ -5,7 +5,7 @@ import './Navbar.css';
 // import { useState } from 'react';
 // import logo1 from './logo1.png';
 // import logo2 from './logo2.png';
-import { connect } from 'react-redux';
+// import { connect } from 'react-redux';
 import { styled, useTheme } from '@mui/material/styles';
 import Drawer from '@mui/material/Drawer';
 import MuiAppBar from '@mui/material/AppBar';
@@ -200,4 +200,5 @@ function Navbar() {
   )
 }
 
-export default withStyles(Styles)(connect()(Navbar))
+// export default withStyles(Styles)(connect()(Navbar))
+export default withStyles(Styles)(Navbar)

@@ -12,10 +12,10 @@ import Navbar from './Components/Navbar/Navbar';
 import { css } from "@emotion/react";
 import React, { useState, useEffect } from 'react';
 import PulseLoader from "react-spinners/PulseLoader";
-import { Provider } from "react-redux";
-import { createStore } from 'redux';
+// import { Provider } from "react-redux";
+// import { createStore } from 'redux';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-import blueGrey from '@material-ui/core/colors/blueGrey';
+// import blueGrey from '@material-ui/core/colors/blueGrey';
 
 // function todos(state = [], action) {
 //   switch (action.type) {
@@ -26,7 +26,7 @@ import blueGrey from '@material-ui/core/colors/blueGrey';
 //   }
 // }
 
-const store = createStore(()=>{}, ['Use Redux'])
+// const store = createStore(()=>{}, ['Use Redux'])
 
 const override = css`
     text-align: center;
@@ -58,7 +58,7 @@ function App() {
    
 
   return (
-    <Provider store={store}>
+    // <Provider store={store}>
       <ThemeProvider theme={theme}>
         <BrowserRouter basename="/Gabriel-Page">
           <Navbar />
@@ -74,7 +74,7 @@ function App() {
             }
         </BrowserRouter>
       </ThemeProvider>
-    </Provider>
+    // </Provider>
   );
   // ReactDOM.render(<App />, document.getElementById('root'));
 }

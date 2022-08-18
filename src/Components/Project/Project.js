@@ -94,4 +94,5 @@ function Project() {
   );
 }
 
-export default connect ()(Project)
+// export default connect ()(Project)
+export default Project

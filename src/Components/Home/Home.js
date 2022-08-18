@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
 import Fade from 'react-reveal/Fade';
-import { connect } from 'react-redux';
+// import { connect } from 'react-redux';
 import { Grid } from '@mui/material';
 
 
@@ -26,4 +26,4 @@ function Home() {
   )
 }
 
-export default connect ()(Home)
+export default Home

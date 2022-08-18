@@ -3,12 +3,12 @@ import './Card.css';
 // import {Link} from 'react-router-dom';
 import { Fade } from 'react-reveal';
 import Container from '@mui/material/Container';
-import Box from '@mui/material/Box';
+// import Box from '@mui/material/Box';
 // import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
+// import CardActions from '@mui/material/CardActions';
+// import CardContent from '@mui/material/CardContent';
+// import Button from '@mui/material/Button';
+// import Typography from '@mui/material/Typography';
 
 export default function Card({title, text, skill, url1, url2}) {
   return (
