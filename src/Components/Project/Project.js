@@ -9,6 +9,14 @@ import Container from '@mui/material/Container';
 const list = [
   {
     id: 1,
+    title: "CRUD",
+    text: "This page is create a qrcode, it can connect to your phone's Contacts",
+    skill: "React, Mui, Node.js, Express, Mysql",
+    url1: "https://github.com/gabriel888chow/CRUD",
+    url2: "https://github.com/gabriel888chow/CRUD/blob/master/README.md",
+  },
+  {
+    id: 2,
     title: "To Do List",
     text: "This is a codecademy project, also our final group project. This is a To Do List, you can use the webapp to notes what you will do later.",
     skill: "React, HTML, CSS, JavaScript & Bootstrap",
@@ -16,7 +24,7 @@ const list = [
     url2: "https://gabriel888chow.github.io/react-tasks-manager/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Wed-Assignment",
     text: "It is a codecademy project, this task is to design and create a landing page for a new school.",
     skill: "HTML, CSS & Bootstrap",
@@ -24,7 +32,7 @@ const list = [
     url2: "https://gabriel888chow.github.io/WedAssignment/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Chore-Door",
     text: "This is a codecademy project, the mission is to construct a single-page website that plays a fully-functional game.",
     skill: "JavaScript, HTML & CSS",
@@ -32,7 +40,7 @@ const list = [
     url2: "https://gabriel888chow.github.io/Chore-Door/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Find Your Hat",
     text: "This is a codecademy project, in this project, is building an interactive terminal game.",
     skill: "JavaScript",
@@ -40,7 +48,7 @@ const list = [
     url2: "https://github.com/gabriel888chow/Find-Your-Hat#readme",
   },
   {
-    id: 5,
+    id: 6,
     title: "Number Guesser",
     text: "This is a codecademy project, in this project, is write JavaScript functions to power a small guessing game.",
     skill: "JavaScript",
@@ -48,7 +56,7 @@ const list = [
     url2: "https://gabriel888chow.github.io/Number-Guesser/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Gabriel's Page",
     text: "This is my web page",
     skill: "React, HTML, CSS, JavaScript & Bootstrap",
@@ -56,7 +64,7 @@ const list = [
     url2: "https://gabriel888chow.github.io/Gabriel-Page/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Furniture Store",
     text: "This is my own project, I used php and mySQL to create a shopping website.",
     skill: "PHP & mySQL",
@@ -71,7 +79,7 @@ function Project() {
     <Container maxWidth="xl">
       <Grid container >
           {list.map(({title, text, skill, url1, url2, id}) => (
-            <Grid item xs={6} lg={6} md={6} sm={4} key={id}>
+            <Grid item xs={12} lg={6} md={6} sm={12} xl={6} key={id}>
               <Card title={title} text={text} skill={skill} url1={url1} url2={url2} />
             </Grid>
           ))}

@@ -8,7 +8,7 @@
 .photoColor {
     width: 300px;
     height: 300px;
-    border-radius: 50% 90% 30% 50%;
+    border-radius: 5% 5% 5% 5%;
     background: linear-gradient(to top left, #5F98A9, #273248);
     border: #F4A300 3px solid;
     justify-content: center;
