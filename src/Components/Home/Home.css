@@ -1,20 +1,28 @@
 .background {
     width: 100%;
     height: 100vh;
-    background:linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2)), url(backgroundImage.jpg);
+    /* background:linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2)), url(backgroundImage.jpg); */
     background-size: cover;
     margin: 0;
 }
 
+.video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
 .backgroundText {
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     height: 100vh;
     font-family: 'Playfair Display', serif;
     font-size: 80px;
     font-weight: bold;
-    color: #fff;
+    color: #1d1d1ddc ;
     /* animation: float 1s infinite ease-in-out alternate; */
 }
 

@@ -16,7 +16,7 @@ import { Fade, Flip, Slide } from "react-reveal";
 // import { ScrollPage, Animator, StickyIn, FadeIn, ZoomIn, batch } from "react-scroll-motion";
 import IGapi from "../IGapi/IGapi";
 // import { connect } from 'react-redux';
-import { Grid } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 import Divider from "@mui/material/Divider";
 import Container from "@mui/material/Container";
 import SimpleImageSlider from "react-simple-image-slider";
@@ -35,11 +35,11 @@ function About() {
   // const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
 
   const images = [
-    {url: Travel1},
-    {url: Travel2},
-    {url: Travel3},
-    {url: Travel4},
-    {url: Travel5},
+    { url: Travel1 },
+    { url: Travel2 },
+    { url: Travel3 },
+    { url: Travel4 },
+    { url: Travel5 },
   ];
 
   return (
@@ -102,19 +102,31 @@ function About() {
             </Fade>
           </Grid>
           <Divider className="bar" />
-          <Grid container >
+          <Grid container>
             <Grid item xs={10} xl={4} md={4} className="aboutColor">
-              <div className="aboutText">
-                <Flip top>
+              {/* <Grid item xs={10} xl={4} md={4} > */}
+              {/* <div className="aboutText"> */}
+              <Flip top>
+                <div className="aboutColor aboutText">
                   <h1>About Me</h1>
                   <p>
                     I was working in interior design, before I learning
                     Front-end Web developer, this is my drawing of my job.
                   </p>
-                </Flip>
-              </div>
+                </div>
+              </Flip>
+              {/* </div> */}
             </Grid>
-            <Grid container item xs={2} xl={8} md={8} className="plan" id="plan" sx={{justifyContent:'center'}}>
+            <Grid
+              container
+              item
+              xs={2}
+              xl={8}
+              md={8}
+              className="plan"
+              id="plan"
+              sx={{ justifyContent: "center" }}
+            >
               <Slide right>
                 <img src={floorPlan1} alt="pic" />
                 <img src={floorPlan2} alt="pic" />
@@ -133,7 +145,7 @@ function About() {
             </Slide>
           </div>
         </Grid> */}
-        <Grid container item xs={6} className="img">
+        <Grid container item xs={12} className="img">
           <Slide bottom>
             <img src={floorPlan4} alt="pic" />
             <img src={floorPlan5} alt="pic" />

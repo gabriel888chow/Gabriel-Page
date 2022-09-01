@@ -79,7 +79,7 @@ function Project() {
     <Container maxWidth="xl">
       <Grid container >
           {list.map(({title, text, skill, url1, url2, id}) => (
-            <Grid item xs={12} lg={6} md={6} sm={12} xl={6} key={id}>
+            <Grid item xs={12} md={6} sm={12} lg={6} xl={6} key={id}>
               <Card title={title} text={text} skill={skill} url1={url1} url2={url2} />
             </Grid>
           ))}

@@ -88,13 +88,13 @@ img {
 
 .aboutColor {
     /* width: 100px; */
-    height: 500px;
+    height: 400px;
     background: linear-gradient(to top left, #5F98A9, #273248);
     border: 2px solid #F4A300;
 }
 
 .aboutText {
-    padding: 190px 100px 190px 5px;
+    padding: 110px 50px;
     color: rgb(255, 255, 255);
 }
 
